@@ -14,9 +14,9 @@ makeCacheMatrix <- function(x = matrix()) {
   ## set matrix
   ## parameters:  data as numeric vector "foldable" to square matrix
   ##              y as numeric value for square matrix dimension
-  set <- function (data,y) {
+  set <- function (y) {
     
-    x <<- matrix(data, nrow = y,ncol = y)
+    x <<- y
     i <<- NULL
   
   }
